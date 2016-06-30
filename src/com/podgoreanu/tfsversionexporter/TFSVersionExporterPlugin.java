@@ -10,7 +10,6 @@ import org.osgi.framework.BundleContext;
  * 
  * @author a.podgoreanu
  * 
- * 
  */
 public class TFSVersionExporterPlugin extends AbstractUIPlugin {
 
