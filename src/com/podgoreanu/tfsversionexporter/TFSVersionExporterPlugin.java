@@ -9,6 +9,8 @@ import org.osgi.framework.BundleContext;
  * The activator class controls the plug-in life cycle
  * 
  * @author a.podgoreanu
+ * 
+ * 
  */
 public class TFSVersionExporterPlugin extends AbstractUIPlugin {
 
