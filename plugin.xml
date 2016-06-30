@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension point="org.eclipse.ui.exportWizards"> 
+       <category
+            id="com.podgoreanu.tfsversionexporter.ExportWizardCategoryTFS"
+            name="TFS"/>
+       <wizard
+       		category="com.podgoreanu.tfsversionexporter.ExportWizardCategoryTFS"
+       		class="com.podgoreanu.tfsversionexporter.wizard.TFSExportWizard"
+       		id="com.podgoreanu.tfsversionexporter.wizard.TFSExportWizard"
+       		icon="images/wizard/MyWork.png"
+       		name="Export Versioned Files">
+       		<description>Export Versioned Files to compressed file or file system.</description>
+       	</wizard>
+   </extension> 
+</plugin>
